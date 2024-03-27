@@ -29,7 +29,7 @@
   font-style: normal;
 }
 @font-face {
-  src: url(/ProjectOlya/assets/fonts/Montserrat-SemiBold.ttf) format("truetype");
+  src: url(/assets/fonts/Montserrat-SemiBold.ttf) format("truetype");
   font-family: "Montserrat";
   font-weight: 600;
   font-style: normal;

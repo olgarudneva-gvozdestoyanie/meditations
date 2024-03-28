@@ -375,9 +375,8 @@ block-5_text-name{
   border: 1.5px solid  rgba(80, 181, 218, 0.771);
   border-radius: 70px;
   width: 50vw;
-  color: white;
   text-decoration: none;
-  padding: 15px;
+  padding: 1vw;
   margin-top: 5vw;
 }
 

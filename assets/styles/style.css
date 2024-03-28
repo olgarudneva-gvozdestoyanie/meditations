@@ -357,7 +357,7 @@ block-5_text-name{
 /*CONTACT-PAGE*/
 
 .contact-main {
-  background-image: url(../images/main_picture_01.jpg);
+  background-image: url(../images/main_picture_03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 1.5px solid  rgba(80, 181, 218, 0.771);
@@ -368,13 +368,14 @@ block-5_text-name{
   text-align: center;
   height: 100vh;
   padding-top: 5vw;
+  color: white;
 }
 .contact-link {
   background-color: white;
   border: 1.5px solid  rgba(80, 181, 218, 0.771);
   border-radius: 70px;
   width: 50vw;
-  color: black;
+  color: white;
   text-decoration: none;
   padding: 15px;
   margin-top: 5vw;

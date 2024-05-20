@@ -210,7 +210,7 @@
 .block-5__container_small {
   display: grid;
   grid-gap: 25px;
-  grid-template-columns: 20vw 25vw;
+  grid-template-columns: 20vw 20vw 25vw;
   grid-template-rows: repeat(1, minmax(200px, 1fr));
   margin: 1.7vw 5vw 6vw 5vw;
 }
@@ -224,7 +224,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
-  padding-top: 2vw;
 }
 .block-5__container-link {
   border-top: 1.5px solid  rgba(80, 181, 218, 0.771);

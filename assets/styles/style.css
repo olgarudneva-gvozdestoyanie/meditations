@@ -49,20 +49,10 @@
   align-items: center;
   margin: 1vw 2vw 1vw 2vw;
 }
-
 .logo {
   display: flex;
   flex-direction: column;
 }
-
-.logo_text {
-
-}
-
-.logo_text1 {
-
-}
-
 .menu {
   list-style-type: none;
   margin: 0;
@@ -73,25 +63,9 @@
   align-items: center;
   grid-gap: 2vw;
 }
-.menu_active {
-  color: #222831;
-  text-decoration: none;
-}
-.menu2 {
-  color: rgba(25, 24, 37, 0.50);
-  text-decoration: none;
-}
-
+.menu_active,
+.menu2,
 .login {
-
-}
-
-.login1 {
-  color: #222831;
-  font-family: 'Inter', sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
   text-decoration: none;
 }
 
@@ -144,47 +118,42 @@
   align-content: center;
   justify-content: center;
   width: 100%;
+  padding: 1vw 0vw 2vw 0vw;
 }
 
-.block6__img {
-  height: 20vw;
-  margin-top: 15px;
-
-}
-
-.dop-services__container {
+.block-6__container {
   display: flex;
   flex-direction: row;
-  padding: 5px 5px;
-  width: 70vw;
+  width: 80vw;
   text-align: center;
 }
 
-.dop-services__point {
-  display: flex;
-  flex-grow: 1;
+.block-6__point {
+  display: grid;
+  grid-gap: 2vw;
+  grid-template-columns: repeat(3, 1fr);
   border-radius: 10px;
   border: medium solid rgba(80, 181, 218, 0.203);
-  margin: 0px 5px;
-  padding: 5px 10px;
+  margin: 0px 7px 0px 7px;
+  padding: 5px;
 }
 
-.dop-services__point__box {
+.block-6__point__box {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 0px 5px 0px 5px;
 }
 
-.dop-services__point__box1 {
+.block-6__point__box1 {
   height: 20vw;
   border-top-left-radius: 40px;
   border-bottom-right-radius: 50px;
   overflow: hidden;
 }
 
-.dop-services__point__text {
+.block-6__point__text {
   color: black;
   font-family: Montserrat;
   font-size: 16px;
@@ -198,31 +167,30 @@
 }
 
 .block-6__button {
-  margin: 2vw 1vw 1vw 2vw;
   background: rgba(80, 181, 218, 0.627);
   text-align: center;
   border: none;
   border-radius: 100px;
-  padding: 1vw 1vw 1vw 1vw;
-  margin: 0vw 0vw 0vw 0vw;
+  padding: 0.5vw;
+  margin: 1vw 0vw 1vw 0vw;
   text-decoration: none;
 }
 
 @media screen and (max-width: 400px) {
-  .dop-services__container {
+  .block-6__container {
       width: 240px;
       flex-direction: column;
       text-align: left;
   }
-    .dop-services__point{
+    .block-6__point{
       margin-bottom: 10px;
   }
-    .dop-services__point__text {
+    .block-6__point__text {
       font-size: 10px;
       justify-content: left;
       margin-left: 5px;
   }
-    .dop-services__point__box{
+    .block-6__point__box{
       width: 40px;
       height: 40px;
   }
@@ -582,19 +550,51 @@ block-5_text-name{
 
 
   /*FONTS*/
-.header {
+.menu_active {
+  color: #222831;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.1rem;
-  color: rgba(218, 80, 82, 0.771);
 }
 @media screen and (max-width: 650px) {
-  .header {
-    font-family: "Montserrat", sans-serif;
+  .menu_active {
     font-weight: 400;
     font-size: 0.8rem;
-    color: rgba(80, 181, 218, 0.771);
   }
+}
+
+.menu2 {
+  color: rgba(25, 24, 37, 0.50);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 650px) {
+  .menu2 {
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+}
+
+.logo_text {
+  color: rgba(57, 171, 212, 0.771);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.logo_text1 {
+  color: rgba(25, 24, 37, 0.50);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.login {
+  color: #222831;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
 }
 
 .block-1__header {
@@ -611,11 +611,23 @@ block-5_text-name{
 }
 .block-1__button {
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1.1rem;
   color: #FFF;
 }
 
+.block-6__button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #FFF;
+}
+.block-6__point__text {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
 
 .block-2__header {
   font-family: "Cormorant Garamond", serif;
@@ -675,6 +687,7 @@ block-5_text-name{
 .block-3__header,
 .block-4__header,
 .block-5__header,
+.block-6__header,
 .block-news__header {
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;

@@ -44,21 +44,98 @@
 
 /* Header */
 .header {
-  background-color: #45d2e125;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
 }
-.header__link-container {
+
+.logo {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  list-style-type: none;
-  margin: 0 5%;
-  padding: 10px;
+  flex-direction: column;
 }
-.header__link {
-  color: black;
+
+.logo_text {
+
+}
+
+.logo_text1 {
+
+}
+
+.navbar {
+
+  word-spacing: 20px;
+}
+
+.menu {
+  list-style-type: none;
+  text-decoration: none;
+  
+  word-spacing: 20px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.menu1 {
+  color: #222831;
   text-decoration: none;
 }
+.menu2 {
+  color: rgba(25, 24, 37, 0.50);
+  text-decoration: none;
+}
+
+.login {
+  margin-left: 100px;
+}
+
+.login1 {
+  color: #222831;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.button {
+  color: #EEE;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 100px;
+  background: #5D50C6;
+  padding: 15px 30px;
+  margin-left: 10px;
+  border: 0;
+}
+
+
+/* Блок 1 */
+
+.block-1 {
+  background-image: url(../images/Main_picture_01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1.5px solid rgba(183, 145, 95, 0.5);
+}
+.block-1__h1 {
+  width: 40%;
+  margin: 10% 0 0 10%;
+}
+.block-1__text {
+  width: 40%;
+  margin-left: 10%;
+}
+.block-1__button {
+  max-width: 20%;
+  margin: 10px 0 10% 10%;
+  border: 1.5px solid rgba(183, 145, 95, 0.5);
+}
+
 
 /* Блок 2 */
 .block-2 {

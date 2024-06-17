@@ -46,6 +46,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -61,16 +62,15 @@
 
 }
 
-.navbar {
-
-}
-
 .menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-decoration: none;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 2vw;
 }
 .menu_active {
   color: #222831;

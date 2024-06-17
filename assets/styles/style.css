@@ -95,20 +95,6 @@
   text-decoration: none;
 }
 
-.button {
-  color: #EEE;
-  font-family: 'Inter', sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  border-radius: 100px;
-  background: #5D50C6;
-  padding: 15px 30px;
-  margin-left: 10px;
-  border: 0;
-}
-
-
 /* Блок 1 */
 
 .block-1 {
@@ -127,13 +113,22 @@
   margin-top: 15px;
 }
 .block-1__text {
-
-  margin-left: 10%;
+  margin: 0vw 0vw 3vw 0vw;
 }
 .block-1__button {
   max-width: 20%;
-  margin: 10px 0 10% 10%;
-  border: 1.5px solid rgba(183, 145, 95, 0.5);
+  margin: 2vw 1vw 1vw 2vw;
+  background: rgba(80, 181, 218, 0.627);
+  text-align: center;
+  border: none;
+  border-radius: 100px;
+  padding: 1vw 1vw 1vw 1vw;
+  margin: 0vw 0vw 0vw 0vw;
+  text-decoration: none;
+}
+
+.nets {
+  margin-top: 2vw;
 }
 
 
@@ -505,21 +500,21 @@ block-5_text-name{
 
 .block-1__header {
   font-family: "Cormorant Garamond", serif;
-  font-weight: 800;
+  font-weight: 900;
   color: rgba(57, 171, 212, 0.771);
-  font-size: 1.8em;
+  font-size: 2.3em;
 }
 .block-1__text {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1.0rem;
   color: black;
 }
 .block-1__button {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 0.9rem;
-  color: black;
+  font-size: 1.1rem;
+  color: #FFF;
 }
 
 

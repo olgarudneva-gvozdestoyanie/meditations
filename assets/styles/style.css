@@ -44,8 +44,7 @@
 
 /* Header */
 .header {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   justify-content: space-between;
 }
 
@@ -64,19 +63,16 @@
 
 .navbar {
 
-  word-spacing: 20px;
 }
 
 .menu {
   list-style-type: none;
-  text-decoration: none;
-  
-  word-spacing: 20px;
-  display: flex;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  text-decoration: none;
+  display: flex;
 }
-.menu1 {
+.menu_active {
   color: #222831;
   text-decoration: none;
 }
@@ -86,7 +82,7 @@
 }
 
 .login {
-  margin-left: 100px;
+
 }
 
 .login1 {

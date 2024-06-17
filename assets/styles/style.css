@@ -111,6 +111,9 @@
 .block-1__img {
   height: 40vw;
   margin-top: 15px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
 }
 .block-1__text {
   margin: 0vw 0vw 3vw 0vw;
@@ -130,6 +133,102 @@
 .nets {
   margin-top: 2vw;
 }
+
+
+/* Блок 6 */
+.block-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.block6__img {
+  height: 20vw;
+  margin-top: 15px;
+
+}
+
+.dop-services__container {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 5px;
+  width: 70vw;
+  text-align: center;
+}
+
+.dop-services__point {
+  display: flex;
+  flex-grow: 1;
+  border-radius: 10px;
+  border: medium solid rgba(80, 181, 218, 0.203);
+  margin: 0px 5px;
+  padding: 5px 10px;
+}
+
+.dop-services__point__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.dop-services__point__box1 {
+  height: 20vw;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+
+.dop-services__point__text {
+  color: black;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.block-6__button {
+  margin: 2vw 1vw 1vw 2vw;
+  background: rgba(80, 181, 218, 0.627);
+  text-align: center;
+  border: none;
+  border-radius: 100px;
+  padding: 1vw 1vw 1vw 1vw;
+  margin: 0vw 0vw 0vw 0vw;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+  .dop-services__container {
+      width: 240px;
+      flex-direction: column;
+      text-align: left;
+  }
+    .dop-services__point{
+      margin-bottom: 10px;
+  }
+    .dop-services__point__text {
+      font-size: 10px;
+      justify-content: left;
+      margin-left: 5px;
+  }
+    .dop-services__point__box{
+      width: 40px;
+      height: 40px;
+  }
+}
+
+
 
 
 /* Блок 2 */
@@ -677,3 +776,5 @@ block-5_text-name{
     width: 70%;
   }
 }
+
+

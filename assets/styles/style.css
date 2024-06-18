@@ -69,6 +69,26 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 650px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo{
+    margin-bottom: 3vw;
+  }
+  .navbar{
+    margin-bottom: 3vw;
+  }
+  .menu{
+    display: grid;
+    grid-gap: 2vw;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
 /* Блок 1 */
 .block-1 {
   display: flex;
@@ -114,6 +134,8 @@
     flex-direction: column;
     align-items: center;
   }
+  .block-1__container {
+    width: 100%;
 }
 
 /* Блок 6 */
@@ -185,10 +207,11 @@
 }
 
 @media screen and (max-width: 650px) {
-  .block-6 {
+  .block-6__container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 }
 
@@ -451,7 +474,7 @@ block-5_text-name{
 .block-7__container {
   display: flex;
   flex-direction: row;
-  width: 80vw;
+  width: 80%;
   text-align: center;
 }
 
@@ -505,10 +528,10 @@ block-5_text-name{
 }
 
 @media screen and (max-width: 650px) {
-  .block-7 {
+  .block-7__container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 100%;
   }
 }
 
@@ -702,6 +725,14 @@ block-5_text-name{
   .login {
     font-weight: 400;
     font-size: 0.9rem;
+  }
+  .logo_text {
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+  .logo_text1 {
+    font-weight: 400;
+    font-size: 1.1rem;
   }
 }
 

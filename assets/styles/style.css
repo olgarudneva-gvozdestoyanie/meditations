@@ -158,6 +158,9 @@
   text-align: center;
 }
 
+
+/*поправить*/
+
 .block-6__point {
   display: grid;
   grid-gap: 2vw;
@@ -202,8 +205,8 @@
   text-align: center;
   border: none;
   border-radius: 100px;
-  padding: 0.5vw;
-  margin: 1vw 0vw 1vw 0vw;
+  padding: 1vw;
+  margin: 1vw 0vw 0vw 0vw;
   text-decoration: none;
 }
 
@@ -770,7 +773,7 @@ block-5_text-name{
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
-  color: #FFF;
+  color: black;
 }
 .block-6__point__text {
   color: black;

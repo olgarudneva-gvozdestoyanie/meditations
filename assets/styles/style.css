@@ -51,6 +51,7 @@
   background-color: white;
   width: 100%;
 }
+
 .logo {
   display: flex;
   flex-direction: column;
@@ -88,6 +89,10 @@
     grid-gap: 2vw;
     grid-template-columns: repeat(3, 1fr);
   }
+  .login > a > img {
+    width: 15vw;
+    padding: 5px;
+  }
 }
 
 
@@ -104,15 +109,14 @@
   width: 100%;
   padding: 2vw 3vw 2vw 1vw;
 }
-
 .block-1__container {
   padding: 1vw 1vw 1vw 2vw;
   width: 60%;
 }
 .block-1__img {
   height: 40vw;
-  border-top-left-radius: 40px;
-  border-bottom-right-radius: 50px;
+  border-top-left-radius: 10vw;
+  border-bottom-right-radius: 10vw;
   overflow: hidden;
 }
 
@@ -143,6 +147,9 @@
   }
   .block-1__container {
     width: 100%;
+  }
+  .block-1__img {
+    height: 95vw;
   }
 }
 
@@ -186,8 +193,8 @@
 
 .services__point__box1 {
   height: 20vw;
-  border-top-left-radius: 40px;
-  border-bottom-right-radius: 50px;
+  border-top-left-radius: 10vw;
+  border-bottom-right-radius: 10vw;
   overflow: hidden;
 }
 
@@ -256,8 +263,8 @@
 
 .events__point__box1 {
   height: 25vw;
-  border-top-left-radius: 40px;
-  border-bottom-right-radius: 50px;
+  border-top-left-radius: 10vw;
+  border-bottom-right-radius: 10vw;
   overflow: hidden;
 }
 
@@ -586,8 +593,8 @@ block-5_text-name{
 
 .block-5__img
 .block-51__img {
-  border-top-left-radius: 40px;
-  border-bottom-right-radius: 50px;
+  border-top-left-radius: 10vw;
+  border-bottom-right-radius: 10vw;
   overflow: hidden;
 }
 
@@ -636,7 +643,7 @@ block-5_text-name{
   width: 100%;
 }
 .footer__link-social > a > img {
-  width: 2.5em;
+  width: 4vw;
   padding: 10px;
 }
 .footer__link > div > a {
@@ -662,7 +669,7 @@ block-5_text-name{
   margin-top: 10px;
 }
 .footer__link-social > a > img {
-  width: 2em;
+  width: 10vw;
   padding: 5px;
 }
 
@@ -789,9 +796,9 @@ block-5_text-name{
 }
 @media screen and (max-width: 650px) {
   .block-1__header {
-    font-size: 1.0rem;
+    font-size: 1.5rem;
   }.block-1__text {
-    font-size: 0.8rem;
+    font-size: 1.0rem;
   }
   .block-1__button {
     font-size: 0.8rem;
@@ -828,7 +835,7 @@ block-5_text-name{
   font-family: "Cormorant Garamond", serif;
   font-weight: 500;
   color: rgba(57, 171, 212, 0.771);
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 .block-2__text {
   font-family: "Montserrat", sans-serif;

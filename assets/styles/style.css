@@ -178,11 +178,9 @@
 }
 
 .services__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 80%;
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 70%;
 }
 
 .services__point {
@@ -199,8 +197,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
+  text-align: center;
   justify-content: center;
-  padding: 0vw 2vw 0vw 2vw;
+  width: 100%
 }
 
 .services__point__box1 {
@@ -236,42 +236,38 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
   align-content: center;
+  text-align: center;
   justify-content: center;
   padding: 1vw 0vw 3vw 0vw;
   width: 100%;
 }
 
 .events__container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  align-content: center;
-  justify-content: center;
-  width: 100%;
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
 }
 
 .events__point {
   display: flex;
   flex-direction: row;
-  border-radius: 10px;
+  border-radius: 1vw;
   border: medium solid rgba(80, 181, 218, 0.203);
   margin: 1vw 1vw 1vw 1vw;
   padding: 1vw;
   align-items: center;
-  text-align: center;
-  align-content: center;
   background-color: white;
 }
 
 .events__point__box {
   display: flex;
   flex-direction: column;
-
-
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%
 
 }
 
@@ -386,6 +382,9 @@
   }
   .block-4 {
     flex-direction: column;
+  }
+  .block-4__point{
+    max-height: 10vw;
   }
   }
 
@@ -698,7 +697,6 @@ block-5_text-name{
 }
 
 /*CONTACT-PAGE*/
-
 .contact-main {
   background-image: url(../images/main_picture_03.jpg);
   background-repeat: no-repeat;
@@ -717,11 +715,20 @@ block-5_text-name{
 .contact-link {
   background-color: white;
   border: 1.5px solid  rgba(80, 181, 218, 0.771);
-  border-radius: 70px;
+  border-radius: 30vw;
   width: 50vw;
   text-decoration: none;
-  padding: 1vw;
-  margin-top: 5vw;
+  padding: 0.7vw;
+  margin-top: 1vw;
+}
+.contact-link1 {
+  background-color: white;
+  border: 1.5px solid  rgba(80, 181, 218, 0.771);
+  border-radius: 30vw;
+  width: 50vw;
+  text-decoration: none;
+  padding: 1.1vw;
+  margin-top: 1vw;
 }
 
 .contact-main__icon {
@@ -735,10 +742,14 @@ block-5_text-name{
   .contact-main__icon {
     display: flex;
     flex-direction: column;
+    width: 80vw;
   }
   .contact-main {
     padding-left: 1vw;
   }
+  .contact-link {
+    width: 80vw;
+}
 }
 
 
@@ -848,7 +859,19 @@ block-5_text-name{
   font-weight: 400;
 }
 
-
+@media screen and (max-width: 650px) {
+.services__point__text,
+.events__point__text {
+  font-size: 0.9rem;
+}
+.participation__point__text,
+.events__point__text1 {
+  font-size: 0.8rem;
+}
+.services__button {
+  font-size: 0.8rem;
+}
+}
 
 .block-2__header {
   font-family: "Cormorant Garamond", serif;
@@ -883,6 +906,13 @@ block-5_text-name{
   color: black;
 }
 
+.block-5__header,
+.events__header1 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  color: black;
+  font-size: 1.0rem;
+}
 .block-5__container-link {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -914,7 +944,6 @@ block-5_text-name{
 
 .block-3__header,
 .block-4__header,
-.block-5__header,
 .services__header,
 .events__header,
 .participation__header,
@@ -936,21 +965,22 @@ block-5_text-name{
 @media screen and (max-width: 650px) {
   .block-3__header,
   .block-4__header,
-  .block-5__header,
   .services__header,
   .events__header,
   .participation__header,
   .certificates__header {
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 400;
     font-size: 0.9rem;
   }
   .block-4__text {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 0.8rem;
-    color: black;
+    font-size: 0.7rem;
   }
+  .block-5__header,
+  .events__header1 {
+    font-size: 0.8rem;
+}
+  .block-5_text-name{
+    font-size: 1.9rem;
+}
 }
 
 .footer {
@@ -965,15 +995,27 @@ block-5_text-name{
   font-size: 2.0rem;
   color: black;
 }
+.contact-link1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 2.0rem;
+  color: black;
+}
 .contact-main {
   font-family: "Cormorant Garamond", serif;
   font-weight: 600;
-  font-size: 2.1rem;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 650px) {
   .contact-link {
     font-size: 1.2rem;
+  }
+  .contact-link1{
+    font-size: 1.2rem;
+  }
+  .contact-main {
+    font-size: 0.8rem;
   }
 }
 

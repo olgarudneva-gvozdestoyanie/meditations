@@ -72,6 +72,13 @@
   text-decoration: none;
 }
 
+.loginbar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
 @media screen and (max-width: 650px) {
   .header {
     display: flex;
@@ -89,9 +96,8 @@
     grid-gap: 2vw;
     grid-template-columns: repeat(3, 1fr);
   }
-  .login > a > img {
-    width: 15vw;
-    padding: 5px;
+  .loginbar{
+    display: none;
   }
 }
 
@@ -110,13 +116,13 @@
   padding: 2vw 3vw 2vw 1vw;
 }
 .block-1__container {
-  padding: 1vw 1vw 1vw 2vw;
+  padding: 0vw 1vw 0vw 2vw;
   width: 60%;
 }
 .block-1__img {
   height: 40vw;
-  border-top-left-radius: 10vw;
-  border-bottom-right-radius: 10vw;
+  border-top-left-radius: 7vw;
+  border-bottom-right-radius: 7vw;
   overflow: hidden;
 }
 
@@ -125,7 +131,6 @@
 }
 .block-1__button {
   max-width: 20%;
-  margin: 2vw 1vw 1vw 2vw;
   background: rgba(80, 181, 218, 0.627);
   text-align: center;
   border: none;
@@ -135,7 +140,7 @@
   text-decoration: none;
 }
 
-.nets {
+.block-1__nets {
   margin-top: 2vw;
 }
 
@@ -150,6 +155,13 @@
   }
   .block-1__img {
     height: 95vw;
+  }
+  .block-1__nets > a > img{
+    width: 13vw;
+    padding: 5px;
+  }
+  .block-1__button {
+    padding: 2vw 2vw 2vw 2vw;
   }
 }
 
@@ -193,8 +205,8 @@
 
 .services__point__box1 {
   height: 20vw;
-  border-top-left-radius: 10vw;
-  border-bottom-right-radius: 10vw;
+  border-top-left-radius: 3vw;
+  border-bottom-right-radius: 3vw;
   overflow: hidden;
 }
 
@@ -210,10 +222,9 @@
 
 @media screen and (max-width: 650px) {
   .services__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
   }
 }
 
@@ -228,7 +239,7 @@
   text-align: center;
   align-content: center;
   justify-content: center;
-  padding: 1vw 0vw 2vw 0vw;
+  padding: 1vw 0vw 3vw 0vw;
   width: 100%;
 }
 
@@ -236,10 +247,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  align-items: center;
+  text-align: center;
   align-content: center;
   justify-content: center;
-  width: 90%;
+  width: 100%;
   text-align: center;
 }
 
@@ -250,21 +261,24 @@
   border: medium solid rgba(80, 181, 218, 0.203);
   margin: 1vw 1vw 1vw 1vw;
   padding: 1vw;
+  align-items: center;
+  text-align: center;
+  align-content: center;
   background-color: white;
 }
 
 .events__point__box {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0vw 2vw 0vw 2vw;
+
+
+
 }
 
 .events__point__box1 {
   height: 25vw;
-  border-top-left-radius: 10vw;
-  border-bottom-right-radius: 10vw;
+  border-top-left-radius: 3vw;
+  border-bottom-right-radius: 3vw;
   overflow: hidden;
 }
 
@@ -280,9 +294,9 @@
 
 @media screen and (max-width: 650px) {
   .events__container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
   }
 }
 
@@ -319,10 +333,15 @@
 }
 
 @media screen and (max-width: 650px) {
-  .certificates {
+  .certificates__container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+  }
+  .certificates__point__box1 {
+    height: 60vw;
+    width: 100%;
   }
 }
 
@@ -382,13 +401,13 @@
 }
 
 .block-2__container {
-  padding: 1vw 1vw 1vw 0vw;
+  padding: 1vw 1vw 1vw 3vw;
 }
 
 .block-2_image {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
 }
 
 .block-2__image1,
@@ -768,17 +787,17 @@ block-5_text-name{
   }
   .logo_text {
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .logo_text1 {
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 }
 
 .block-1__header {
   font-family: "Cormorant Garamond", serif;
-  font-weight: 900;
+  font-weight: 600;
   color: black;
   font-size: 2.3em;
 }
@@ -790,7 +809,7 @@ block-5_text-name{
 }
 .block-1__button {
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.1rem;
   color: #FFF;
 }
@@ -801,7 +820,7 @@ block-5_text-name{
     font-size: 1.0rem;
   }
   .block-1__button {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -815,7 +834,7 @@ block-5_text-name{
 .events__point__text {
   color: black;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 700;
 }

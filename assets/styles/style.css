@@ -267,8 +267,8 @@
   align-content: center;
   text-align: center;
   justify-content: center;
-  width: 100%
-
+  width: 100%;
+  padding: 0vw 1vw 0vw 1vw;
 }
 
 .events__point__box1 {
@@ -462,11 +462,9 @@
 }
 
 .participation__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   width: 80%;
-  text-align: center;
 }
 
 .participation__point {

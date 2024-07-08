@@ -290,6 +290,15 @@
   overflow: hidden;
 }
 
+.events__point__text1 {
+  line-height: 1.5;
+  text-align: left;
+}
+
+.events__point__text3 {
+  padding: 1vw;
+}
+
 .events__button {
   background: rgba(80, 181, 218, 0.627);
   text-align: center;
@@ -856,7 +865,8 @@ block-5_text-name{
   color: black;
 }
 .services__point__text,
-.events__point__text {
+.events__point__text,
+.events__point__text3 {
   color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 1.1rem;

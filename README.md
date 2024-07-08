@@ -1,1 +1,0 @@
-# olgarudneva-gvozdestoyanie-meditations

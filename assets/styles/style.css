@@ -628,7 +628,7 @@
   text-align: center;
   align-content: center;
   justify-content: center;
-  padding: 2vw 3vw 4vw 1vw;
+  padding: 2vw 1vw 3vw 1vw;
   width: 100%;
 }
 
@@ -688,7 +688,6 @@
   grid-gap: 2vw;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
-  margin-left: 4vw;
 }
 .block-3-container__text {
   border: 1.5px solid rgba(80, 181, 218, 0.771);

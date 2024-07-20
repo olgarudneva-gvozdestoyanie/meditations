@@ -951,7 +951,7 @@ block-5_text-name{
   color: #222831;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
 }
 @media screen and (max-width: 650px) {
   .menu_active {
@@ -979,7 +979,7 @@ block-5_text-name{
   font-family: "Cormorant Garamond", serif;
   font-weight: 600;
   color: black;
-  font-size: 2.3em;
+  font-size: 2.3rem;
 }
 .block-1__text {
   font-family: "Montserrat", sans-serif;

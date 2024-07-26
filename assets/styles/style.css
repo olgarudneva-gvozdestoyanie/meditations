@@ -300,6 +300,11 @@
   padding: 1vw;
 }
 
+.events__point__text4 {
+  line-height: 1.5;
+  text-align: center;
+}
+
 .events__button {
   background: rgba(80, 181, 218, 0.627);
   text-align: center;
@@ -569,13 +574,13 @@
 
 .block-2__container {
   padding: 1vw 1vw 1vw 3vw;
-  width: 90%;
+  width: 60%;
 }
 
 .block-2_image {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 90%;
+  width: 40%;
 }
 
 .block-2__image1,
@@ -1024,6 +1029,7 @@ block-5_text-name{
 
 .participation__point__text,
 .events__point__text1,
+.events__point__text4,
 .blog__point__text1 {
   color: black;
   font-family: "Montserrat", sans-serif;
@@ -1040,6 +1046,7 @@ block-5_text-name{
 }
 .participation__point__text,
 .events__point__text1,
+.events__point__text4,
 .blog__point__text1 {
   font-size: 0.8rem;
 }

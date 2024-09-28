@@ -759,9 +759,9 @@
 
 .block-5__containerbb {
   display: grid;
-  grid-gap: 20px;
-  grid-template-columns:  repeat(4, minmax(200px, 1fr));
-  grid-template-rows: repeat(1, minmax(200px, 1fr));
+  grid-gap: 15px;
+  grid-template-columns:  repeat(3, minmax(200px, 1fr));
+  grid-template-rows: repeat(1, minmax(150px, 1fr));
   margin: 1.7vw 5vw 6vw 5vw;
 }
 .bb {
@@ -772,11 +772,11 @@
   object-fit: cover;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-content: center;
+  padding: 0vw 1vw 0vw 1.5vw;
 }
-
 .textbb {
+  line-height: 1.5;
   text-align: left;
 }
 

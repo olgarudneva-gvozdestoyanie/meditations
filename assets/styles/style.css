@@ -162,6 +162,7 @@
   }
   .block-1__button {
     padding: 2vw 2vw 2vw 2vw;
+    max-width: 40%;
   }
 }
 
@@ -556,6 +557,9 @@
   .block-4 {
     flex-direction: column;
   }
+  .block-4__img {
+    height: 70vw;
+  }
   .block-4__point{
     max-height: 10vw;
   }
@@ -618,8 +622,8 @@
     flex-direction: column;
     align-items: center;
   }
-  .block-2__img {
-    height: 80vw;
+  .block-2_image{
+    width: 90%;
   }
   .block-2__container {
     width: 100%;
@@ -1038,7 +1042,7 @@ block-5_text-name{
     font-size: 1.0rem;
   }
   .block-1__button {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 }
 

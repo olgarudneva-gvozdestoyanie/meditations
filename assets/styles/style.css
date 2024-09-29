@@ -828,6 +828,13 @@ block-5_text-name{
     grid-template-columns: repeat(auto-fit, minmax(50vw, 600vw));
     text-align: center;
   }
+  .block-5__containerbb {
+    margin: 15px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(50vw, 600vw));
+    text-align: center;
+  }
   .block-5__container_small {
     margin: 15px;
     display: grid;

@@ -201,7 +201,8 @@
   align-content: center;
   text-align: center;
   justify-content: center;
-  width: 100%
+  width: 100%;
+  padding: 0vw 0vw 0vw 1vw;
 }
 
 .services__point__box1 {

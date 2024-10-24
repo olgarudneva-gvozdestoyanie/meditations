@@ -51,10 +51,10 @@
   background-color: white;
   width: 100%;
 }
-
 .logo {
   display: flex;
   flex-direction: column;
+  margin-right: 1vw;
 }
 .menu {
   list-style-type: none;
@@ -64,7 +64,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  grid-gap: 2vw;
+  grid-gap: 1vw;
 }
 .menu_active,
 .menu2,
@@ -180,8 +180,8 @@
 
 .services__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  width: 90%;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
 }
 
 .services__point {
@@ -762,6 +762,7 @@
 
 
 
+
 .block-5__containerbb {
   display: grid;
   grid-gap: 15px;
@@ -780,7 +781,7 @@
   align-content: center;
   padding: 0vw 1vw 0vw 1.5vw;
 }
-.textbb {
+.learning_text {
   line-height: 1.5;
   text-align: left;
 }
@@ -848,6 +849,56 @@ block-5_text-name{
     text-align: center;
   }
 }
+
+/* Блок mindfull */
+.mindfull {
+  background-image: url(../images/main_picture_02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+.mindfull__container {
+  display: grid;
+  grid-gap: 1vw;
+  grid-template-columns: repeat(1, minmax(20vw, 1fr));
+  margin: 1vw 5vw 5vw 5vw;
+  width: 50%;
+}
+.mindfull__containersmall {
+  background-color: white;
+  border: 1.5px solid  rgba(80, 181, 218, 0.771);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 1vw 2vw 0vw 2vw;
+}
+.mindfull__text {
+  line-height: 1.5;
+  text-align: left;
+}
+
+@media screen and (max-width: 650px) {
+  .mindfull {
+    margin: 0;
+    width: 100%;
+  }
+  .mindfull__container {
+    margin: 1vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50vw, 600vw));
+    text-align: center;
+  }
+} 
+
 
 
 .block-6 {
@@ -1128,7 +1179,9 @@ block-5_text-name{
 
 .block-5__header,
 .events__header1,
-.blog__header1 {
+.blog__header1,
+.learning__header,
+.mindfull__header {
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   color: black;
@@ -1140,16 +1193,21 @@ block-5_text-name{
   color: rgba(80, 181, 218, 0.926);
   font-size: 1.0rem;
 }
+
 .block-5_text-name {
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-size: 2.0rem;
 }
-.block-5_text-bold {
+
+.block-5_text-bold,
+.learning_text-bold,
+.mindfull_text-bold {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 0.9rem;
 }
+
 .block-5_text-boldname {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -1157,7 +1215,8 @@ block-5_text-name{
   padding-top: 2vw;
 }
 .text,
-.textbb {
+.learning_text,
+.mindfull__text {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
@@ -1200,7 +1259,9 @@ block-5_text-name{
   }
   .block-5__header,
   .events__header1,
-  .blog__header1 {
+  .blog__header1,
+  .mindfull__header,
+  .learning__header {
     font-size: 0.8rem;
 }
   .block-5_text-name{

@@ -866,7 +866,7 @@ block-5_text-name{
 .mindfull__container {
   display: grid;
   grid-gap: 1vw;
-  grid-template-columns: repeat(1, minmax(20vw, 1fr));
+  grid-template-columns: repeat(1, 1fr);
   margin: 1vw 5vw 5vw 5vw;
   width: 50%;
 }
@@ -892,10 +892,7 @@ block-5_text-name{
     width: 100%;
   }
   .mindfull__container {
-    margin: 1vw;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50vw, 600vw));
-    text-align: center;
+    width: 90%;
   }
 } 
 

@@ -182,6 +182,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 80%;
+  gap: 2vw;
 }
 
 .services__point {

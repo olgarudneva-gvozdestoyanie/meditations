@@ -294,9 +294,13 @@
   margin-bottom: 1vw;
 }
 
+.events__hidden{
+  display: none;
+}
+
 .events__point__box2 {
   height: 25vw;
-  width: 20vw;
+  width: 19vw;
   border-top-left-radius: 3vw;
   border-bottom-right-radius: 3vw;
   overflow: hidden;

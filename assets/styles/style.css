@@ -168,6 +168,9 @@
 
 /* Блок services */
 .services {
+  background-image: url(../images/main_picture_02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -233,9 +236,6 @@
 
 /* Блок events */
 .events {
-  background-image: url(../images/main_picture_02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;

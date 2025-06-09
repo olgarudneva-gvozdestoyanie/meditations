@@ -45,23 +45,18 @@
 /* Header */
 .header {
   display: grid;
-  grid-template-columns: 20vw 60vw 18vw;
-
+  grid-template-columns: 20vw 61vw 15vw;
   align-items: center;
   padding: 1vw 1vw 1vw 1vw;
   background-color: white;
   width: 100%;
-  grid-gap: 1vw;
 }
 .logo {
   display: flex;
   flex-direction: column;
-  margin-right: 1vw;
 }
 .menu {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
@@ -78,7 +73,6 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-left: 2.5vw;
 }
 
 
@@ -1099,13 +1093,13 @@ block-5_text-name{
   color: #222831;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
 }
 .menu2 {
   color: rgba(25, 24, 37, 0.50);
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
 }
 .logo_text {
   color: rgba(57, 171, 212, 0.771);
@@ -1117,7 +1111,7 @@ block-5_text-name{
   color: rgba(25, 24, 37, 0.50);
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
 }
 .login {
   color: #222831;

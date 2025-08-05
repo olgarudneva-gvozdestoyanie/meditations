@@ -333,10 +333,10 @@
   }
   .events__point {
   display: flex;
-  flex-direction: column;
+  flex-direction: column  !important;
   }
   .events__point__box1 {
-  height: 60vw;
+  height: 60vw  !important;
   }
   .events__point__box1 img {
   width: 100%;
